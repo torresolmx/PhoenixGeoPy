@@ -1,0 +1,147 @@
+{
+    "auto_power_enabled": false,
+    "config": [
+        {
+            "RTMT": {
+                "hi_freq": false,
+                "low_freq": false,
+                "mid_freq": false
+            },
+            "calibration": {
+                "delete_timeseries": true,
+                "passes_requested": 0,
+                "type": "none"
+            },
+            "chanconfig": [
+                {
+                    "at": 0,
+                    "dipole": {
+                        "NegEast": 0,
+                        "NegNorth": -50,
+                        "PosEast": 0,
+                        "PosNorth": 50,
+                        "coord_system": "receiver",
+                        "version": 1
+                    },
+                    "ga": 1,
+                    "ga_ext": 1,
+                    "length1": 50,
+                    "length2": 50,
+                    "lp": 10000,
+                    "lp_ext": 4,
+                    "on": 1,
+                    "pg": 4,
+                    "pg_ext": 2,
+                    "tag": "E1",
+                    "version": 2
+                },
+                {
+                    "at": 0,
+                    "dipole": {
+                        "NegEast": -50,
+                        "NegNorth": 0,
+                        "PosEast": 50,
+                        "PosNorth": 0,
+                        "coord_system": "receiver",
+                        "version": 1
+                    },
+                    "ga": 1,
+                    "ga_ext": 1,
+                    "length1": 50,
+                    "length2": 50,
+                    "lp": 10000,
+                    "lp_ext": 4,
+                    "on": 1,
+                    "pg": 4,
+                    "pg_ext": 2,
+                    "tag": "E2",
+                    "version": 2
+                },
+                {
+                    "ga": 4,
+                    "ga_ext": 2,
+                    "lp": 10000,
+                    "lp_ext": 4,
+                    "on": 1,
+                    "serial": 0,
+                    "tag": "H1",
+                    "type": 4,
+                    "type_name": "MTC-150",
+                    "version": 1
+                },
+                {
+                    "ga": 4,
+                    "ga_ext": 2,
+                    "lp": 10000,
+                    "lp_ext": 4,
+                    "on": 1,
+                    "serial": 0,
+                    "tag": "H2",
+                    "type": 4,
+                    "type_name": "MTC-150",
+                    "version": 1
+                },
+                {
+                    "ga": 4,
+                    "ga_ext": 2,
+                    "lp": 10000,
+                    "lp_ext": 4,
+                    "on": 0,
+                    "serial": 0,
+                    "tag": "H3",
+                    "type": 4,
+                    "type_name": "MTC-150",
+                    "version": 1
+                }
+            ],
+            "config_index": 0,
+            "decimation": {
+                "divider_id": 2,
+                "interleave_lev0": 2,
+                "interleave_lev1": 0,
+                "version_1": {
+                    "interleave_150": 1,
+                    "interleave_2400": 0,
+                    "interleave_24k": 2,
+                    "interleave_30": 0,
+                    "interleave_96k": 0,
+                    "period": 30
+                }
+            },
+            "layout": {
+                "Company_Name": "Phoenix Geophysics",
+                "Layout_Type": 0,
+                "Notes": "",
+                "Operator": "J",
+                "Station_Name": "Masked Cordinates",
+                "Survey_Name": "20 Hz 1V Sine wave test",
+                "version": 6
+            },
+            "potres_detect": true,
+            "schedule_name": "Manual Override",
+            "sensor_detect": true,
+            "startTime": 0,
+            "stopTime": 0,
+            "version": 1
+        }
+    ],
+    "empower_version": "v1.63.0.1",
+    "mtc150_reset": false,
+    "network": {
+        "gateway": "",
+        "ipaddr": "",
+        "mode": "dhcp",
+        "nameserver": [
+        ],
+        "netmask": "",
+        "serve_dhcp": false,
+        "serve_dhcp_end": "",
+        "serve_dhcp_start": ""
+    },
+    "receiver": "MTU-5C",
+    "schedule": "No Schedule (button only)",
+    "surveyTechnique": 1,
+    "timezone": "America/Toronto (GMT-04:00)",
+    "timezone_offset": -14400,
+    "version": 17
+}

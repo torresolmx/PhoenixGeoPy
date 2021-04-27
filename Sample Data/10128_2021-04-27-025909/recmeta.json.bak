@@ -1,0 +1,250 @@
+{
+	"name":	"recording",
+	"version":	6,
+	"chconfig":	{
+		"name":	"chconfig",
+		"config_index":	0,
+		"version":	5,
+		"chans":	[{
+				"tag":	"H2",
+				"ty":	"M",
+				"on":	1,
+				"srd":	32,
+				"pg":	1,
+				"at":	0,
+				"lp":	10000,
+				"ga":	4,
+				"dc":	32778,
+				"ssp":	0,
+				"hw":	"BCM01-I ",
+				"ser":	"031063",
+				"fw":	"0001001FX",
+				"cn":	"04030000",
+				"min":	-1723770,
+				"max":	1725666,
+				"sampleRate":	24000,
+				"frameSat":	0,
+				"ppsDrift":	0,
+				"frameDrop":	0,
+				"fileSeq":	3,
+				"type_name_detected":	"Not Present",
+				"type":	4,
+				"type_name":	"MTC-150",
+				"serial":	0
+			}
+, {
+				"tag":	"E1",
+				"ty":	"E",
+				"on":	1,
+				"srd":	32,
+				"pg":	4,
+				"at":	0,
+				"lp":	10000,
+				"ga":	1,
+				"dc":	32746,
+				"ssp":	0,
+				"hw":	"BCM01-I ",
+				"ser":	"03118D",
+				"fw":	"0001001FX",
+				"cn":	"10280000",
+				"min":	-848660,
+				"max":	847334,
+				"sampleRate":	24000,
+				"frameSat":	32730,
+				"ppsDrift":	0,
+				"frameDrop":	0,
+				"fileSeq":	3,
+				"pot_p":	9896.360013,
+				"pot_n":	10818.396149,
+				"length1":	50,
+				"length2":	50
+			}
+, {
+				"tag":	"H1",
+				"ty":	"M",
+				"on":	1,
+				"srd":	32,
+				"pg":	1,
+				"at":	0,
+				"lp":	10000,
+				"ga":	4,
+				"dc":	32782,
+				"ssp":	0,
+				"hw":	"BCM01-I ",
+				"ser":	"0311CE",
+				"fw":	"0001001FX",
+				"cn":	"04030000",
+				"min":	-1722872,
+				"max":	1730304,
+				"sampleRate":	24000,
+				"frameSat":	0,
+				"ppsDrift":	0,
+				"frameDrop":	0,
+				"fileSeq":	3,
+				"type_name_detected":	"Not Present",
+				"type":	4,
+				"type_name":	"MTC-150",
+				"serial":	0
+			}
+, {
+				"tag":	"H3",
+				"ty":	"M",
+				"on":	0,
+				"srd":	32,
+				"pg":	1,
+				"at":	0,
+				"lp":	10000,
+				"ga":	4,
+				"dc":	32768,
+				"ssp":	0,
+				"hw":	"BCM01-I ",
+				"ser":	"031164",
+				"fw":	"0001001FX",
+				"cn":	"04030000",
+				"min":	2147483647,
+				"max":	-2147483648,
+				"sampleRate":	24000,
+				"frameSat":	0,
+				"ppsDrift":	0,
+				"frameDrop":	0,
+				"fileSeq":	0,
+				"type_name_detected":	"",
+				"type":	4,
+				"type_name":	"MTC-150",
+				"serial":	0
+			}
+, {
+				"tag":	"E2",
+				"ty":	"E",
+				"on":	1,
+				"srd":	32,
+				"pg":	4,
+				"at":	0,
+				"lp":	10000,
+				"ga":	1,
+				"dc":	32749,
+				"ssp":	0,
+				"hw":	"BCM01-I ",
+				"ser":	"031168",
+				"fw":	"0001001FX",
+				"cn":	"10280000",
+				"min":	-853157,
+				"max":	848374,
+				"sampleRate":	24000,
+				"frameSat":	32873,
+				"ppsDrift":	0,
+				"frameDrop":	0,
+				"fileSeq":	3,
+				"pot_p":	10062.471822,
+				"pot_n":	10544.376018,
+				"length1":	50,
+				"length2":	50
+			}
+]
+	}
+,
+	"decimation":	{
+		"divider_id":	-1,
+		"interleave_lev0":	0,
+		"interleave_lev1":	0,
+		"version_1":	{
+			"period":	0,
+			"interleave_96k":	0,
+			"interleave_24k":	0,
+			"interleave_2400":	0,
+			"interleave_150":	0,
+			"interleave_30":	0
+		}
+
+	}
+,
+	"layout":	{
+		"Company_Name":	"Phoenix",
+		"Layout_Type":	0,
+		"Notes":	"",
+		"Operator":	"J",
+		"Station_Name":	"Masked Cordinates",
+		"Survey_Name":	"20 Hz 1V Sine wave test",
+		"version":	5
+	}
+,
+	"timing":	{
+		"name":	"timing",
+		"version":	3,
+		"gps_lat":	43.696403,
+		"gps_lon":	-79.393696,
+		"gps_alt":	70.112949,
+		"tm_hw_ver":	"BTM01-I ",
+		"tm_serial":	"031AE6",
+		"tm_fw_ver":	"00010031X",
+		"tm_cpld":	"2912",
+		"tm_alive":	1,
+		"tm_ready":	1,
+		"tm_debug":	0,
+		"tm_timeweek":	1,
+		"tm_timeset":	1,
+		"tm_utcset":	1,
+		"tm_leapSecAtRecStart":	18,
+		"tm_leapSecNow":	18,
+		"tm_satcount":	6,
+		"tm_satmin":	0,
+		"tm_stabidx":	145,
+		"tm_drift":	"-8",
+		"tm_drift_units":	"20thMhz"
+	}
+,
+	"motherboard":	{
+		"version":	1,
+		"mb_hw_ver":	"BMB01-F ",
+		"mb_serial":	"03100E",
+		"mb_fw_ver":	"00010036X"
+	}
+,
+	"channel_map":	{
+		"version":	1,
+		"receiver_model":	"RMT03",
+		"mapping":	[{
+				"idx":	0,
+				"tag":	"H2"
+			}
+, {
+				"idx":	1,
+				"tag":	"E1"
+			}
+, {
+				"idx":	2,
+				"tag":	"H1"
+			}
+, {
+				"idx":	3,
+				"tag":	"H3"
+			}
+, {
+				"idx":	4,
+				"tag":	"E2"
+			}
+]
+	}
+,
+	"instid":	"10128",
+	"uptime":	454,
+	"bat_ext":	12.446000,
+	"temp_cel":	28,
+	"sampleClock":	768000,
+	"ppsDrift":	false,
+	"missingFrame":	0,
+	"status":	"dataacq",
+	"calibration":	{
+		"type":	"none"
+	}
+,
+	"acqtime":	123,
+	"start":	1619492349,
+	"stop":	1619492472,
+	"systime":	1619492472,
+	"dt":	63216549888,
+	"df":	25942687744,
+	"sw_version":	"v1.61.0-49-g2bbfec4",
+	"receiver_model":	"RMT03",
+	"receiver_commercial_name":	"MTU-5C"
+}

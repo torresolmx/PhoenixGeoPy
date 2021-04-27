@@ -1,0 +1,10 @@
+backend/Executor version : v1.61.0-49-g2bbfec4
+Proclib version : v1.61.0-25-ga4864d8
+Decimation will generate files every 6 minutes
+tmp/recdata/10_1__608783F4_4_00000001.bin took max time to decimate :5065997 microseconds
+tmp/recdata/10_1__608783F4_4_00000002.bin took max time to decimate :5531744 microseconds
+tmp/recdata/10_2__608783F4_4_00000003.bin took max time to decimate :5549444 microseconds
+tmp/recdata/10_2__608783F4_4_00000004.bin took max time to decimate :5532302 microseconds
+tmp/recdata/10_1__608783F4_4_00000005.bin took max time to decimate :5557775 microseconds
+tmp/recdata/10_2__608783F4_4_00000006.bin took max time to decimate :5554886 microseconds
+cat stats returned non-zero [256]

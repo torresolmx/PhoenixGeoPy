@@ -1,0 +1,229 @@
+Apr 27 03:07:12 mtu8-10128 backend: Initiating messenger
+Apr 27 03:07:12 mtu8-10128 backend: 
+    ``                                                                     `   
+   `````                                                                 ````  
+   ``````                            ````                              ``````  
+   ````````                  ````````  `````                        `````````  
+     ```````                  `````````````````                   ```````````  
+        ``````                         ````````                 `````````      
+  ````     ````                           ````                ```````     ``   
+  ````````   ```                           ```             ``````    ```````   
+  ````````````   ```                       ```             ``   ```````````    
+         ``````  ```````                 ````        ````  ```````````````     
+    `````        ````````````         `````     ````````  `````                
+    ```````````` ```````````````  ```````` ````````````  ```````````````       
+     ````          `````````   `````````  ````````````   ``````````````        
+          ````````  ``````  ``````````  ````````````   `````                   
+        `````````     ``  ``````````  ````````````    `````````````            
+         `````    ````  ```````````  `````````    `````    ``````              
+                `````` ```````````  ````      ``  ```````                      
+              ```````  ``````````      ```  `````   ```````                    
+                      ```````````  ```````  ``````    ``                       
+                      ```````````  ```````  ```````                            
+                       ``````````       ``                                     
+                       ```````````                                             
+                        ``````````                                             
+                         ``````````                                            
+                           `````````                                           
+                            ````````                                           
+                                ```                                            
+                                  `                                            
+                  P H O E N I X        G E O P H Y S I C S                     
+                                2 0 1 3                                        
+                                                                               
+                                           v1.61.0-49-g2bbfec4                                 
+                                  10128                                        
+                                                                               
+Apr 27 03:07:12 mtu8-10128 backend: Panel Map loaded, discovery mode: 1
+Apr 27 03:07:12 mtu8-10128 backend: Timing Module Hardware: BTM01-I 
+Apr 27 03:07:12 mtu8-10128 backend: Timing Module Firmware: 00010031X
+Apr 27 03:07:13 mtu8-10128 mqtt: No control config in config.json, disabling net control
+Apr 27 03:07:13 mtu8-10128 backend: Timing Module CPLD: 2912
+Apr 27 03:07:13 mtu8-10128 backend: Timing Module Serial: 031AE6
+Apr 27 03:07:14 mtu8-10128 backend: {2}<3> CLEARED: Missing timing module
+Apr 27 03:07:14 mtu8-10128 backend: Mapped device @ [2-2.2], enum <14>, to channel index <3>
+Apr 27 03:07:14 mtu8-10128 backend: {1}<3> CLEARED: Missing channels
+Apr 27 03:07:14 mtu8-10128 backend: Mapped device @ [2-2.4], enum <15>, to channel index <4>
+Apr 27 03:07:14 mtu8-10128 backend: Mapped device @ [2-2.6.2], enum <16>, to channel index <0>
+Apr 27 03:07:14 mtu8-10128 backend: Mapped device @ [2-2.6.4], enum <17>, to channel index <1>
+Apr 27 03:07:14 mtu8-10128 backend: Mapped device @ [2-2.6.5], enum <18>, to channel index <2>
+Apr 27 03:07:14 mtu8-10128 backend: {5}<3> CLEARED: Hardware not initialized yet
+Apr 27 03:07:14 mtu8-10128 backend: Mapped channel DATA @ enum <18>, to channel index <2>
+Apr 27 03:07:14 mtu8-10128 backend: Mapped channel DATA @ enum <17>, to channel index <1>
+Apr 27 03:07:14 mtu8-10128 backend: Mapped channel DATA @ enum <16>, to channel index <0>
+Apr 27 03:07:14 mtu8-10128 backend: Mapped channel DATA @ enum <15>, to channel index <4>
+Apr 27 03:07:14 mtu8-10128 backend: Mapped channel DATA @ enum <14>, to channel index <3>
+Apr 27 03:07:14 mtu8-10128 backend: Discovered Timing module at 13
+Apr 27 03:07:14 mtu8-10128 backend: Discovered Channel module at 14
+Apr 27 03:07:14 mtu8-10128 backend: Discovered Channel module at 15
+Apr 27 03:07:14 mtu8-10128 backend: Discovered Channel module at 16
+Apr 27 03:07:14 mtu8-10128 backend: Discovered Channel module at 17
+Apr 27 03:07:14 mtu8-10128 backend: Discovered Channel module at 18
+Apr 27 03:07:14 mtu8-10128 backend: Discovered motherboard at 19
+Apr 27 03:07:15 mtu8-10128 backend: Backplane Hardware: BMB01-F 
+Apr 27 03:07:15 mtu8-10128 backend: Backplane Firmware: 00010036X
+Apr 27 03:07:15 mtu8-10128 backend: Backplane Serial: 03100E
+Apr 27 03:07:15 mtu8-10128 backend: Timing Module Hardware: BTM01-I 
+Apr 27 03:07:15 mtu8-10128 backend: Backplane Bootloader version: 00000014
+Apr 27 03:07:15 mtu8-10128 backend: {37}<0> SD card ready
+Apr 27 03:07:15 mtu8-10128 backend: Configuration loaded with 0 scheduled tasks
+Apr 27 03:07:15 mtu8-10128 backend: Ch H2 [0]: Setting config for sensor type: MTC-150
+Apr 27 03:07:15 mtu8-10128 backend: Ch0: Setting dac: 8000
+Apr 27 03:07:15 mtu8-10128 backend: Channel Module #0 Serial #: 031063
+Apr 27 03:07:15 mtu8-10128 backend: Channel Module #0 Firmware: 0001001FX
+Apr 27 03:07:15 mtu8-10128 backend: Chanel Module #0 Hardware: BCM01-I 
+Apr 27 03:07:15 mtu8-10128 backend: Sensor @ channel #0 switched to BMT mode
+Apr 27 03:07:15 mtu8-10128 backend: Ch0: Setting dac: 8000
+Apr 27 03:07:16 mtu8-10128 backend: Channel Module #1 Serial #: 03118D
+Apr 27 03:07:16 mtu8-10128 backend: Channel Module #1 Firmware: 0001001FX
+Apr 27 03:07:16 mtu8-10128 backend: Chanel Module #1 Hardware: BCM01-I 
+Apr 27 03:07:16 mtu8-10128 backend: Ch1: Setting dac: 8000
+Apr 27 03:07:16 mtu8-10128 backend: Ch H1 [2]: Setting config for sensor type: MTC-150
+Apr 27 03:07:16 mtu8-10128 backend: Ch2: Setting dac: 8000
+Apr 27 03:07:16 mtu8-10128 backend: Channel Module #2 Serial #: 0311CE
+Apr 27 03:07:16 mtu8-10128 backend: Channel Module #2 Firmware: 0001001FX
+Apr 27 03:07:16 mtu8-10128 backend: Chanel Module #2 Hardware: BCM01-I 
+Apr 27 03:07:16 mtu8-10128 backend: Sensor @ channel #2 switched to BMT mode
+Apr 27 03:07:16 mtu8-10128 backend: Ch2: Setting dac: 8000
+Apr 27 03:07:16 mtu8-10128 backend: Channel Module #3 Serial #: 031164
+Apr 27 03:07:16 mtu8-10128 backend: Channel Module #3 Firmware: 0001001FX
+Apr 27 03:07:16 mtu8-10128 backend: Chanel Module #3 Hardware: BCM01-I 
+Apr 27 03:07:16 mtu8-10128 backend: Ch H3 [3]: Setting config for sensor type: MTC-150
+Apr 27 03:07:16 mtu8-10128 backend: Ch3: Setting dac: 8000
+Apr 27 03:07:16 mtu8-10128 backend: Sensor @ channel #3 switched to BMT mode
+Apr 27 03:07:16 mtu8-10128 backend: Ch3: Setting dac: 8000
+Apr 27 03:07:16 mtu8-10128 backend: Channel Module #4 Serial #: 031168
+Apr 27 03:07:16 mtu8-10128 backend: Channel Module #4 Firmware: 0001001FX
+Apr 27 03:07:16 mtu8-10128 backend: Ch4: Setting dac: 8000
+Apr 27 03:07:16 mtu8-10128 backend: 5 channel modules initialized from configuration file
+Apr 27 03:07:16 mtu8-10128 backend: Initializing screen 
+Apr 27 03:07:16 mtu8-10128 backend: Socket: Listening on port 61206
+Apr 27 03:07:16 mtu8-10128 backend: {"name":"genome", "backend_version":"v1.61.0-49-g2bbfec4", "receiver_model":"RMT03", "receiver_commercial_name":"MTU-5C", "backplane_hw_ver":"BMB01-F ", "backplane_fw_ver":"00010036X", "backplane_boot_ver":"00000014", "timingmodule_hw_ver":"BTM01-I ", "timingmodule_fw_ver":"00010031X", "timingmodule_cpld":"2912", "chans_hw_ver":["BCM01-I ","BCM01-I ","BCM01-I ","BCM01-I ",""], "chan_ser_num" : ["031063","03118D","0311CE","031164","031168"], "chan_fw_ver" : ["0001001FX","0001001FX","0001001FX","0001001FX","0001001FX"]}
+Apr 27 03:07:16 mtu8-10128 backend: Chanel Module #4 Hardware: BCM01-I 
+Apr 27 03:09:01 mtu8-10128 backend: {18}<0> Time synchronized and enough satellites present
+Apr 27 03:09:01 mtu8-10128 backend: Timing Module Ready for ACQ (37 5 31)
+Apr 27 03:10:36 mtu8-10128 backend: {17}<1> Time not synchronized
+Apr 27 03:10:36 mtu8-10128 backend: {18}<0> CLEARED: Time synchronized and enough satellites present
+Apr 27 03:11:25 mtu8-10128 backend: {17}<1> CLEARED: Time not synchronized
+Apr 27 03:11:25 mtu8-10128 backend: {18}<0> Time synchronized and enough satellites present
+Apr 27 03:11:25 mtu8-10128 backend: Timing Module Ready for ACQ (37 4 30)
+Apr 27 03:11:33 mtu8-10128 backend: {17}<1> Time not synchronized
+Apr 27 03:11:33 mtu8-10128 backend: {18}<0> CLEARED: Time synchronized and enough satellites present
+Apr 27 03:12:40 mtu8-10128 backend: {17}<1> CLEARED: Time not synchronized
+Apr 27 03:12:40 mtu8-10128 backend: {18}<0> Time synchronized and enough satellites present
+Apr 27 03:12:40 mtu8-10128 backend: Timing Module Ready for ACQ (37 5 31)
+Apr 27 03:14:09 mtu8-10128 backend: {17}<1> Time not synchronized
+Apr 27 03:14:09 mtu8-10128 backend: {18}<0> CLEARED: Time synchronized and enough satellites present
+Apr 27 03:15:30 mtu8-10128 backend: {17}<1> CLEARED: Time not synchronized
+Apr 27 03:15:30 mtu8-10128 backend: {18}<0> Time synchronized and enough satellites present
+Apr 27 03:15:30 mtu8-10128 backend: Timing Module Ready for ACQ (37 4 30)
+Apr 27 03:18:59 mtu8-10128 backend: {17}<1> Time not synchronized
+Apr 27 03:18:59 mtu8-10128 backend: {18}<0> CLEARED: Time synchronized and enough satellites present
+Apr 27 03:19:01 mtu8-10128 backend: {17}<1> CLEARED: Time not synchronized
+Apr 27 03:19:01 mtu8-10128 backend: {18}<0> Time synchronized and enough satellites present
+Apr 27 03:19:01 mtu8-10128 backend: Timing Module Ready for ACQ (37 5 8C)
+Apr 27 03:19:05 mtu8-10128 backend: {17}<1> Time not synchronized
+Apr 27 03:19:05 mtu8-10128 backend: {18}<0> CLEARED: Time synchronized and enough satellites present
+Apr 27 03:21:14 mtu8-10128 backend: {17}<1> CLEARED: Time not synchronized
+Apr 27 03:21:14 mtu8-10128 backend: {18}<0> Time synchronized and enough satellites present
+Apr 27 03:21:14 mtu8-10128 backend: Timing Module Ready for ACQ (37 5 30)
+Apr 27 03:21:56 mtu8-10128 backend: {17}<1> Time not synchronized
+Apr 27 03:21:56 mtu8-10128 backend: {18}<0> CLEARED: Time synchronized and enough satellites present
+Apr 27 03:23:03 mtu8-10128 backend: {17}<1> CLEARED: Time not synchronized
+Apr 27 03:23:03 mtu8-10128 backend: {18}<0> Time synchronized and enough satellites present
+Apr 27 03:23:03 mtu8-10128 backend: Timing Module Ready for ACQ (37 7 31)
+Apr 27 03:23:16 mtu8-10128 backend: Ch0: Setting dac: 8000
+Apr 27 03:23:16 mtu8-10128 backend: Ch1: Setting dac: 8000
+Apr 27 03:23:16 mtu8-10128 backend: Ch2: Setting dac: 8000
+Apr 27 03:23:16 mtu8-10128 backend: Ch3: Setting dac: 8000
+Apr 27 03:23:16 mtu8-10128 backend: Ch4: Setting dac: 8000
+Apr 27 03:23:16 mtu8-10128 backend: {72}<0> Compensating DC levels
+Apr 27 03:23:16 mtu8-10128 backend: Ch H2 [0]: Setting config for sensor type: MTC-150
+Apr 27 03:23:16 mtu8-10128 backend: Ch0: Setting dac: 8000
+Apr 27 03:23:16 mtu8-10128 backend: Sensor @ channel #0 switched to BMT mode
+Apr 27 03:23:16 mtu8-10128 backend: Ch H1 [2]: Setting config for sensor type: MTC-150
+Apr 27 03:23:16 mtu8-10128 backend: Ch2: Setting dac: 8000
+Apr 27 03:23:16 mtu8-10128 backend: Sensor @ channel #2 switched to BMT mode
+Apr 27 03:23:16 mtu8-10128 backend: Ch0: Starting AUTODC ACQ
+Apr 27 03:23:16 mtu8-10128 backend:  >> Connected to channel module 0 (H2)
+Apr 27 03:23:16 mtu8-10128 backend: Ch1: Starting AUTODC ACQ
+Apr 27 03:23:16 mtu8-10128 backend:  >> Connected to channel module 1 (E1)
+Apr 27 03:23:16 mtu8-10128 backend: Ch2: Starting AUTODC ACQ
+Apr 27 03:23:16 mtu8-10128 backend:  >> Connected to channel module 2 (H1)
+Apr 27 03:23:16 mtu8-10128 backend: Ch4: Starting AUTODC ACQ
+Apr 27 03:23:16 mtu8-10128 backend:  >> Connected to channel module 4 (E2)
+Apr 27 03:23:27 mtu8-10128 backend: --> Ch2 AvgTotal is 13688 @ gain=4.000000
+Apr 27 03:23:27 mtu8-10128 backend: --> Ch2 needs a DAC of: 32781 [800D]
+Apr 27 03:23:27 mtu8-10128 backend: --> Ch1 AvgTotal is -7409 @ gain=1.000000
+Apr 27 03:23:27 mtu8-10128 backend: --> Ch1 needs a DAC of: 32739 [7FE3]
+Apr 27 03:23:27 mtu8-10128 backend: --> Ch0 AvgTotal is 8779 @ gain=4.000000
+Apr 27 03:23:27 mtu8-10128 backend: --> Ch0 needs a DAC of: 32777 [8009]
+Apr 27 03:23:27 mtu8-10128 backend: --> Ch4 AvgTotal is -7832 @ gain=1.000000
+Apr 27 03:23:27 mtu8-10128 backend: --> Ch4 needs a DAC of: 32737 [7FE1]
+Apr 27 03:23:29 mtu8-10128 backend:  -- Disconnected from channel module 0 (H2)
+Apr 27 03:23:29 mtu8-10128 backend:  -- Disconnected from channel module 1 (E1)
+Apr 27 03:23:29 mtu8-10128 backend:  -- Disconnected from channel module 2 (H1)
+Apr 27 03:23:29 mtu8-10128 backend:  -- Disconnected from channel module 4 (E2)
+Apr 27 03:23:30 mtu8-10128 backend: Ch0: Setting dac: 8000
+Apr 27 03:23:30 mtu8-10128 backend: Ch1: Setting dac: 8000
+Apr 27 03:23:30 mtu8-10128 backend: Ch2: Setting dac: 8000
+Apr 27 03:23:30 mtu8-10128 backend: Ch3: Setting dac: 8000
+Apr 27 03:23:30 mtu8-10128 backend: Ch4: Setting dac: 8000
+Apr 27 03:23:30 mtu8-10128 backend: {75}<0> Detecting magnetic sensors
+Apr 27 03:23:30 mtu8-10128 backend: Ch0: Setting dac: 8000
+Apr 27 03:23:30 mtu8-10128 backend: Ch2: Setting dac: 8000
+Apr 27 03:23:31 mtu8-10128 backend: Ch0: Starting MAG_DETECT ACQ
+Apr 27 03:23:31 mtu8-10128 backend:  >> Connected to channel module 0 (H2)
+Apr 27 03:23:31 mtu8-10128 backend: Ch2: Starting MAG_DETECT ACQ
+Apr 27 03:23:31 mtu8-10128 backend:  >> Connected to channel module 2 (H1)
+Apr 27 03:23:49 mtu8-10128 backend:  -- Disconnected from channel module 0 (H2)
+Apr 27 03:23:49 mtu8-10128 backend:  -- Disconnected from channel module 2 (H1)
+Apr 27 03:23:50 mtu8-10128 backend: H2	2Hz 0.000007	5Hz 0.000009	10Hz 0.000008	20Hz 0.126006	Not Present
+Apr 27 03:23:51 mtu8-10128 backend: H1	2Hz 0.000007	5Hz 0.000010	10Hz 0.000008	20Hz 0.126007	Not Present
+Apr 27 03:23:51 mtu8-10128 backend: Ch0: Setting dac: 8000
+Apr 27 03:23:51 mtu8-10128 backend: Ch1: Setting dac: 8000
+Apr 27 03:23:52 mtu8-10128 backend: Ch2: Setting dac: 8000
+Apr 27 03:23:52 mtu8-10128 backend: Ch3: Setting dac: 8000
+Apr 27 03:23:52 mtu8-10128 backend: Ch4: Setting dac: 8000
+Apr 27 03:23:52 mtu8-10128 backend: {71}<0> Measuring pot resistance
+Apr 27 03:23:52 mtu8-10128 backend: Ch1: Setting dac: 8000
+Apr 27 03:23:52 mtu8-10128 backend: Ch4: Setting dac: 8000
+Apr 27 03:23:52 mtu8-10128 backend: Ch1: Starting POTRES ACQ
+Apr 27 03:23:52 mtu8-10128 backend:  >> Connected to channel module 1 (E1)
+Apr 27 03:23:52 mtu8-10128 backend: Ch4: Starting POTRES ACQ
+Apr 27 03:23:52 mtu8-10128 backend:  >> Connected to channel module 4 (E2)
+Apr 27 03:24:27 mtu8-10128 backend:  -- Disconnected from channel module 1 (E1)
+Apr 27 03:24:27 mtu8-10128 backend:  -- Disconnected from channel module 4 (E2)
+Apr 27 03:24:29 mtu8-10128 backend: Pot Res E1[-] @ 2  Hz    Off 11757.226094  On 10868.468922
+Apr 27 03:24:29 mtu8-10128 backend: Pot Res E1[-] @ 5  Hz    Off 11757.000378  On 10821.622689
+Apr 27 03:24:29 mtu8-10128 backend: Pot Res E1[-] @ 10 Hz    Off 11757.001544  On 10735.374954
+Apr 27 03:24:30 mtu8-10128 backend: Pot Res E1[+] @ 2  Hz    Off 10335.117056  On 9836.426828
+Apr 27 03:24:30 mtu8-10128 backend: Pot Res E1[+] @ 5  Hz    Off 10335.601586  On 9862.936866
+Apr 27 03:24:30 mtu8-10128 backend: Pot Res E1[+] @ 10 Hz    Off 10335.685365  On 9938.905870
+Apr 27 03:24:31 mtu8-10128 backend: Pot Res E2[-] @ 2  Hz    Off 11450.948860  On 10603.258240
+Apr 27 03:24:31 mtu8-10128 backend: Pot Res E2[-] @ 5  Hz    Off 11450.750473  On 10551.814316
+Apr 27 03:24:31 mtu8-10128 backend: Pot Res E2[-] @ 10 Hz    Off 11450.748978  On 10455.765302
+Apr 27 03:24:33 mtu8-10128 backend: Pot Res E2[+] @ 2  Hz    Off 10513.026404  On 9992.203689
+Apr 27 03:24:33 mtu8-10128 backend: Pot Res E2[+] @ 5  Hz    Off 10513.669164  On 10027.369155
+Apr 27 03:24:33 mtu8-10128 backend: Pot Res E2[+] @ 10 Hz    Off 10513.803129  On 10110.121337
+Apr 27 03:24:33 mtu8-10128 backend: {64}<0> Instrument idle
+Apr 27 03:24:34 mtu8-10128 backend: Ch0: Setting dac: 8009
+Apr 27 03:24:34 mtu8-10128 backend: Ch1: Setting dac: 7FE3
+Apr 27 03:24:34 mtu8-10128 backend: Ch2: Setting dac: 800D
+Apr 27 03:24:34 mtu8-10128 backend: Ch3: Setting dac: 8000
+Apr 27 03:24:34 mtu8-10128 backend: Ch4: Setting dac: 7FE1
+Apr 27 03:24:34 mtu8-10128 backend: {65}<0> Acquiring Data
+Apr 27 03:24:34 mtu8-10128 backend: Ch0: Starting ACQ
+Apr 27 03:24:34 mtu8-10128 backend:  >> Connected to channel module 0 (H2)
+Apr 27 03:24:34 mtu8-10128 backend: Ch1: Starting ACQ
+Apr 27 03:24:34 mtu8-10128 backend:  >> Connected to channel module 1 (E1)
+Apr 27 03:24:35 mtu8-10128 backend: Ch2: Starting ACQ
+Apr 27 03:24:35 mtu8-10128 backend:  >> Connected to channel module 2 (H1)
+Apr 27 03:24:35 mtu8-10128 backend: Ch4: Starting ACQ
+Apr 27 03:24:35 mtu8-10128 backend:  >> Connected to channel module 4 (E2)
+Apr 27 03:30:42 mtu8-10128 backend: Stop button pressed. Stop acquisition...
+Apr 27 03:30:42 mtu8-10128 backend: {36}<0> Transferring files to SD card
+Apr 27 03:30:43 mtu8-10128 backend:  -- Disconnected from channel module 0 (H2)
+Apr 27 03:30:43 mtu8-10128 backend:  -- Disconnected from channel module 1 (E1)
+Apr 27 03:30:43 mtu8-10128 backend:  -- Disconnected from channel module 2 (H1)
+Apr 27 03:30:43 mtu8-10128 backend:  -- Disconnected from channel module 4 (E2)
