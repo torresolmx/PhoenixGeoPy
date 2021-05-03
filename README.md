@@ -6,7 +6,7 @@ This project enables users to parse and handle Phoenix Geophysics binary time se
 
 ## Why is this project useful?
 
-This project allows the geophysical community and enthusiasts of Phoenix Geophysics products to work with native Phoenix time series from the new generation of products and create their own code, allowing them to solve the next geophysical data challenge!
+This project allows the geophysical community to work with native Phoenix time series from the MTU-5C family of systems and create their own code, allowing them to solve the next geophysical data challenge!
 
 ## How do I get started?
 
