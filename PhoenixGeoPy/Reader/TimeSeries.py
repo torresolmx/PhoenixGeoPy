@@ -11,7 +11,7 @@ from struct import unpack_from, unpack
 import os
 import string
 from cmath import phase
-from DataScaling import DataScaling
+from PhoenixGeoPy.Reader.DataScaling import DataScaling
 
 
 class _TSReaderBase(object):
