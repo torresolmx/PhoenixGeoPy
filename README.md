@@ -1,4 +1,4 @@
-#PhoenixGeoPy
+# PhoenixGeoPy
 
 ## What does this project do?
 
@@ -12,9 +12,11 @@ This project allows the geophysical community to work with native Phoenix time s
 
 ### Installing the necessary packages
 
-First you will need to install Python3 in your system if you don't have it already. You can find Python3 for different oeprating systems. In Windows we recommend using Cygwin or MSYS2.
+#### Install Python 3
 
-For now, most of our documentation will be tested in a Linux computer, but if you know your way around python, or if you Google a little, you will find how to do the same in your system.
+First you will need to install Python3 in your system if you don't have it already. You can find Python3 for different operating systems. In Windows we recommend using Cygwin or MSYS2.
+
+For now, most of our documentation will be tested on a Linux computer, but if you know your way around Python, or if you Google a little, you will find how to do the same in your system.
 
 In a modern Debian-based Linux system you can install Python3 by typing in a console:
 
@@ -22,7 +24,35 @@ In a modern Debian-based Linux system you can install Python3 by typing in a con
 sudo apt install python3
 ```
 
-You will also need to install a few other python3 libraries if you don't have then already. Note that matplotlib is only needed to run the examples, and not by the PhoenixGeoPy library itself. If you are not planning to run the examples, you can ommit installing python3-matplotlib
+#### Install PhoenixGeoPy and its dependencies using the standard package manager 'pip3'
+
+`pip3` is a package manager for your Python 3 installation. You can use it to install packages you might need and automatically manage their dependencies. This is much easier than installing packages from source code, one by one, and figuring out and installing their dependiencies.
+
+`PhoenixGeoPy` has been added to the official Python Package Index PyPi, so it can be installed using `pip3`.
+
+If you have python 3.4 or above installed, `pip3` is installed by default with your python installation in most operating systems
+
+If you have pip installed, in a console where you can invoke python you can type
+
+`pip3 install PhoenixGeoPy`
+
+This will install PhoenixGeoPy and all its dependencies.
+
+Note though that this will install packages on top of your main python installation. This is not a problem if you are just using python casually, but if python is used for some other pueposes in your system, we recommend that you set up a Python virtual environment before running pip3. Ths will leave your main OS Python packages untouched, and will create a safe copy of python where the new libraries will be installed. We cannot really give a tutorial of virtual environemnts, but the link below is a great resource
+
+<https://docs.python.org/3/tutorial/venv.html>
+
+#### Install PhoenixGeoPy from source at github
+
+You can install PhoenixGeoPy from our open source repository. This is more complex than using `pip3`, so it is recommended for more advanced users, or only if installing using `pip3` is not an option.
+
+To clone the source code to your compurter do:
+
+```bash
+https://github.com/torresolmx/PhoenixGeoPy.git
+```
+
+You will need to install a few other python3 libraries if you don't have then already. Note that matplotlib is only needed to run the examples, and not by the PhoenixGeoPy library itself. If you are not planning to run the examples, you can ommit installing python3-matplotlib
 
 ```bash
 sudo apt install python3-numpy python3-matplotlib
@@ -30,9 +60,9 @@ sudo apt install python3-numpy python3-matplotlib
 
 ### Now the fun can start
 
-Clone the project. Then in a console that has access to python3, change directories to the location where you cloned this PhoenixGeoPy project. You should see this README.md file in that directory.
+In a console that has access to python3, change directories to the location where you cloned this PhoenixGeoPy project. You should see this README.md file in that directory.
 
-Once there, you will need to define this directory as a directory that has libraies that python3 can import. This will be effective for this session of the console. You only need to do this once on that console, while it remains open.
+If you are running the project from source (intead of installing from pip), once there, you will need to define this directory as a directory that has libraies that python3 can import. This will be effective for this session of the console. You only need to do this once on that console, while it remains open.
 
 The following command should define your cloned project as a path where python will look for libraries for a bash console. You can easily find a bash-compatible console commonly in Linux or Mac, and in Windows you can use an MSYS2 or Cygwin running bash console.
 
@@ -42,7 +72,7 @@ PYTHONPATH=$(pwd):$PYTHONPATH
 
 Remember, while you keep that console open, you only need to run this command above once.
 
-Now that python knows how to find your newly downloaded library, change directories to the "Examples" folder
+Now change directories to the "Examples" folder
 
 ```bash
 cd Examples
@@ -60,6 +90,7 @@ If you need to read data from Phoenix time series files, you can make a copy of 
 
 
 ## What is the license type for this project?
+
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## How do I contribute?

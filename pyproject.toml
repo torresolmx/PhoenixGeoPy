@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "PhoenixGeoPy"
+version = "1.0"
+authors = [
+  { name = "Phoenix Geophysics Ltd.", email = "pypi@phoenix-geophysics.com" }
+]
+description = "This package enables users to parse and handle Phoenix Geophysics binary time series from the MTU-5C family of receivers."
+readme = "README.md"
+license = { file="License.md" }
+requires-python = ">=3.7"
+dependencies = [
+    numpy,
+    matplotlib
+]
+    
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/torresolmx/PhoenixGeoPy"
+"Bug Tracker" = "https://github.com/torresolmx/PhoenixGeoPy/issues"
