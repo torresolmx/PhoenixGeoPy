@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "PhoenixGeoPy"
-version = "1.0"
+version = "1.0.1"
 authors = [
   { name = "Phoenix Geophysics Ltd.", email = "pypi@phoenix-geophysics.com" }
 ]
@@ -13,8 +13,8 @@ readme = "README.md"
 license = { file="License.md" }
 requires-python = ">=3.7"
 dependencies = [
-    numpy,
-    matplotlib
+    "numpy",
+    "matplotlib"
 ]
     
 classifiers = [
