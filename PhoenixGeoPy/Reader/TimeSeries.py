@@ -264,7 +264,7 @@ class _TSReaderBase(object):
 class NativeReader(_TSReaderBase):
     """Native sampling rate 'Raw' time series reader class"""
 
-    def __init__(self, path, num_files=1, scale_to=DataScaling.AD_input_volts,
+    def __init__(self, path, num_files=1, scale_to=DataScaling.instrument_input_volts,
                  header_size=128, last_frame=0, channel_gain=0.5, ad_plus_minus_range = 5.0,
                  channel_type="E", report_hw_sat=False):
         # Init the base class
@@ -285,7 +285,7 @@ class NativeReader(_TSReaderBase):
         self.input_plusminus_range = self.ad_plus_minus_range / self.total_circuitry_gain
 
         if self.data_scaling == DataScaling.AD_in_ADunits:
-            self._scale_factor = 256
+            self._scale_factor = 1.0 / 256
         elif self.data_scaling == DataScaling.AD_input_volts:
             self._scale_factor = self.ad_plus_minus_range / (2 ** 31)
         elif self.data_scaling == DataScaling.instrument_input_volts:
