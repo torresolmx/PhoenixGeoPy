@@ -1,0 +1,41 @@
+name: Upload Python Package to Test PyPI and PyPI automatically when a Release is Published
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  pypi-publish:
+    name: Publish release to Test PyPI
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install setuptools wheel
+
+      - name: Build package
+        run: |
+          python setup.py sdist bdist_wheel  # Alternatively, you can use python -m build
+
+      - name: Publish package distributions to Test PyPI
+        uses: pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
+        with:
+          skip_existing: true
+          user: __token__
+          password: ${{ secrets.TEST_PYPI_PASSWORD }}
+          repository_url: https://test.pypi.org/legacy/
+
+      - name: Publish package distributions to PyPI
+        uses: pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
+        with:
+          skip_existing: true
+          user: __token__
+          password: ${{ secrets.PYPI_PASSWORD }}
