@@ -10,7 +10,7 @@ def read(fname):
 
 setup(
     name = "PhoenixGeoPy",
-    version = "1.0",
+    version = "1.0.2",
     author = "Phoenix Geophysics Ltd.",
     author_email = "pypi@phoenix-geophysics.com",
     description = ("This package enables users to parse and handle Phoenix Geophysics binary time series from the MTU-5C family of receivers."),
